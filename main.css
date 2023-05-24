@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header{
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #fff;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{  
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 4px;
+}
+
+header li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 180px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section{
+    padding: 16px;
+}
+
+section h2,
+.articles article{
+    margin-bottom: 16px;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+article a{
+    background-color: rgb(228, 12, 12);
+    color: #fff;
+    padding: 3px;
+    margin: 4px;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+.articles article p
+.articles article a{
+    font-family: 'Poppins', sans-serif;
+}
+
+.articles article h3{
+    font-size: 20px;
+}
+
+section h2{
+    font-size: 30px;
+}
+
+#sports{
+    background-color: rgba(78, 243, 78, 0.150);
+}
+
+#sports .articles article a{
+    background-color: rgba(49, 75, 12, 0.663);
+}
+
+#economy{
+    background-color: rgba(238, 249, 23, 0.150);
+}
+
+#economy .articles article a{
+    background-color: rgba(213, 135, 17, 0.663);
+}
+
+#entertainment {
+    background-color: rgba(250, 58, 58, 0.150);
+}
+
+#entertainment .articles article a{
+    background-color: rgb(228, 12, 12, 0.663);
+}
+
+#tecnology{
+    background-color: rgba(63, 5, 163, 0.150);
+}
+
+#tecnology .articles article a{
+    background-color: rgba(167, 58, 250, 0.663);
+}
